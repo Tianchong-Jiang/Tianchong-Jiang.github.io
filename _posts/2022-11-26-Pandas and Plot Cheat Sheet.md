@@ -6,7 +6,3 @@ tags: [pandas, plot]     # TAG names should always be lowercase
 ---
 
 # Pandas
-
-```python
-list = [item for item in list if condition]
-```
