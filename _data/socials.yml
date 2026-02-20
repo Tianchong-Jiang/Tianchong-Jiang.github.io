@@ -1,14 +1,18 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+email: tianchongj@ttic.edu
+github_username: Tianchong-Jiang
+linkedin_username: tianchong-jiang-420b801ab
+rss_icon: false
+scholar_userid: 5z1iJjoAAAAJ
+
+custom_dblp:
+  logo: https://dblp.org/img/favicon.ico
+  title: DBLP
+  url: https://dblp.org/pid/350/4857.html
+
+custom_openreview:
+  logo: https://openreview.net/favicon.ico
+  title: OpenReview
+  url: https://openreview.net/profile?id=~Tianchong_Jiang1

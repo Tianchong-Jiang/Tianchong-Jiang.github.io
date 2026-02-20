@@ -36,17 +36,28 @@ table {
 }
 
 a,
-table.table a {
-  color: var(--global-theme-color);
+a:active,
+a:focus,
+table.table a,
+table.table a:active,
+table.table a:focus {
+  color: v.$blue-color;
+}
 
-  &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
-  }
+a:visited,
+table.table a:visited {
+  color: v.$purple-color;
+}
 
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
+a:hover,
+table.table a:hover {
+  color: v.$blue-color;
+  text-decoration: underline;
+}
+
+a:hover:after :not(.nav-item.dropdown),
+table.table a:hover:after :not(.nav-item.dropdown) {
+  width: 100%;
 }
 
 .table-dark {
