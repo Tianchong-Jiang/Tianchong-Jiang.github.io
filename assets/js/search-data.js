@@ -35,8 +35,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-phd-at-ttic-advised-by-matthew-r-walter",
-          title: 'Started my PhD at TTIC, advised by Matthew R. Walter.',
+            },},{id: "news-started-my-phd-at-ttic",
+          title: 'Started my PhD at TTIC.',
           description: "",
           section: "News",},{id: "news-progressor-accepted-to-iccv-2025-and-stackgen-accepted-to-iros-2025",
           title: 'PROGRESSOR accepted to ICCV 2025, and StackGen accepted to IROS 2025.',
