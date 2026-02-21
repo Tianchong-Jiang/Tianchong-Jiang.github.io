@@ -9,23 +9,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "Publications in reverse chronological order.",
+  },{id: "nav-publications-amp-pre-prints",
+          title: "publications &amp; pre-prints",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "GitHub profile and selected repositories.",
+        },{id: "nav-blogs",
+          title: "blogs",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/blogs/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Academic CV of Tianchong Jiang.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -35,14 +35,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-co-authored-statler-state-maintaining-language-models-for-embodied-reasoning-presented-at-icra-2024",
-          title: 'Co-authored Statler: State-maintaining language models for embodied reasoning, presented at ICRA 2024.',
-          description: "",
-          section: "News",},{id: "news-started-my-phd-at-ttic-advised-by-matthew-r-walter",
+            },},{id: "news-started-my-phd-at-ttic-advised-by-matthew-r-walter",
           title: 'Started my PhD at TTIC, advised by Matthew R. Walter.',
           description: "",
-          section: "News",},{id: "news-co-authored-progressor-iccv-2025-and-stackgen-iros-2025",
-          title: 'Co-authored PROGRESSOR (ICCV 2025) and StackGen (IROS 2025).',
+          section: "News",},{id: "news-progressor-accepted-to-iccv-2025-and-stackgen-accepted-to-iros-2025",
+          title: 'PROGRESSOR accepted to ICCV 2025, and StackGen accepted to IROS 2025.',
+          description: "",
+          section: "News",},{id: "news-do-you-know-where-your-camera-is-and-hapcompass-were-accepted-to-icra-2026",
+          title: 'Do You Know Where Your Camera Is? and HapCompass were accepted to ICRA...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
