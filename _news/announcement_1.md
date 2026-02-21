@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my PhD at TTIC, advised by Matthew R. Walter.
+Started my PhD at [TTIC](https://www.ttic.edu/).
