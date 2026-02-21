@@ -104,31 +104,31 @@ layout: default
     <!-- Publications -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications &amp; pre-prints</a>
       </h2>
       <ul class="nav nav-pills mb-3" id="homepage-publications-tab" role="tablist">
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="nav-link active"
             id="selected-publications-tab"
             data-toggle="tab"
             href="#selected-publications"
             role="tab"
             aria-controls="selected-publications"
-            aria-selected="false"
+            aria-selected="true"
           >
             selected
           </a>
         </li>
         <li class="nav-item">
           <a
-            class="nav-link active"
+            class="nav-link"
             id="all-publications-tab"
             data-toggle="tab"
             href="#all-publications"
             role="tab"
             aria-controls="all-publications"
-            aria-selected="true"
+            aria-selected="false"
           >
             all
           </a>
@@ -136,14 +136,14 @@ layout: default
       </ul>
       <div class="tab-content" id="homepage-publications-tab-content">
         <div
-          class="tab-pane fade"
+          class="tab-pane fade show active"
           id="selected-publications"
           role="tabpanel"
           aria-labelledby="selected-publications-tab"
         >
           {% include selected_papers.liquid %}
         </div>
-        <div class="tab-pane fade show active" id="all-publications" role="tabpanel" aria-labelledby="all-publications-tab">
+        <div class="tab-pane fade" id="all-publications" role="tabpanel" aria-labelledby="all-publications-tab">
           <div class="publications">
             {% bibliography %}
           </div>

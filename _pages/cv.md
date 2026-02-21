@@ -1,12 +1,35 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf:
-cv_format: rendercv # options: rendercv, jsonresume
-description: Academic CV of Tianchong Jiang.
-toc:
-  sidebar: left
+_styles: |
+  body .container.mt-5 {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body .post {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  body .post-header {
+    display: none;
+  }
+
+  .cv-embed {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 9rem);
+    border: 0;
+  }
 ---
+
+<iframe
+  class="cv-embed"
+  src="{{ '/assets/pdf/cv.pdf' | relative_url }}"
+  title="Curriculum Vitae"
+></iframe>
