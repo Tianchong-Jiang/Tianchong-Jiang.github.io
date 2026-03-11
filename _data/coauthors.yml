@@ -1,34 +1,74 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"ji":
+  - firstname: ["Jingtian"]
+    url: https://scholar.google.com/citations?user=NTJgqagAAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"tan":
+  - firstname: ["Xiangshan"]
+    url: https://vincent-tann.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"fang":
+  - firstname: ["Jiading"]
+    url: https://www.fangjiading.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bhattad":
+  - firstname: ["Anand"]
+    url: https://anandbhattad.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"guizilini":
+  - firstname: ["Vitor"]
+    url: https://vitorguizilini.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"walter":
+  - firstname: ["Matthew R.", "Matthew"]
+    url: https://home.ttic.edu/~mwalter/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"lopes":
+  - firstname: ["Pedro"]
+    url: https://plopes.org/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"yoneda":
+  - firstname: ["Takuma"]
+    url: https://takuma.yoneda.xyz/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"li":
+  - firstname: ["Peng"]
+    url: https://artpli.github.io/
+
+"zhang":
+  - firstname: ["Huanyu"]
+    url: https://huanyuzhang.github.io/
+
+  - firstname: ["Xiao"]
+    url: https://xiao7199.github.io/
+
+"yunis":
+  - firstname: ["David"]
+    url: https://dyunis.github.io/
+
+"mei":
+  - firstname: ["Hongyuan"]
+    url: https://www.hongyuanmei.com/
+
+"shakhnarovich":
+  - firstname: ["Gregory"]
+    url: https://ttic.uchicago.edu/~gregory/
+
+"ayalew":
+  - firstname: ["Tewodros"]
+    url: https://tedywond.github.io/
+
+"wu":
+  - firstname: ["Kevin Yuanbo", "Kevin"]
+    url: https://kevinywu.github.io/
+
+"maire":
+  - firstname: ["Michael"]
+    url: https://people.cs.uchicago.edu/~mmaire/
+
+"sun":
+  - firstname: ["Luzhe"]
+    url: https://tllokn.github.io/
+
+"wheeler":
+  - firstname: ["Samuel W.", "Samuel"]
+    url: https://scholar.google.com/citations?user=5oGQphkAAAAJ&hl=en
