@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-04-15'
 papers:
   5z1iJjoAAAAJ:IjCSPb-OGe4C:
-    citations: 3
+    citations: 5
     title: 'PROGRESSOR: A Perceptually Guided Reward Estimator with Self-Supervised Online Refinement'
     year: '2025'
   5z1iJjoAAAAJ:UeHWp8X0CEIC:
-    citations: 1
+    citations: 2
     title: 'StackGen: Generating Stable Structures from Silhouettes via Diffusion'
     year: '2025'
   5z1iJjoAAAAJ:W7OEmFMy1HYC:
-    citations: 0
+    citations: 2
     title: Do You Know Where Your Camera Is? View-Invariant Policy Learning with Camera Conditioning
     year: '2026'
+  5z1iJjoAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: 'HAPCOMPASS: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation'
+    year: '2026'
   5z1iJjoAAAAJ:d1gkVwhDpl0C:
-    citations: 4
+    citations: 5
     title: 6-DoF stability field via diffusion models
     year: '2023'
   5z1iJjoAAAAJ:u-x6o8ySG0sC:
@@ -22,6 +26,6 @@ papers:
     title: "WIGNER\u2019S SEMICIRCLE LAW FOR GAUSSIAN RANDOM MATRICES"
     year: '2021'
   5z1iJjoAAAAJ:u5HHmVD_uO8C:
-    citations: 64
+    citations: 68
     title: 'Statler: State-maintaining language models for embodied reasoning'
     year: '2024'
