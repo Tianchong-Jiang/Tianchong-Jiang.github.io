@@ -120,7 +120,9 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
-    {% if entry.type == 'article' %}
+    {% if entry.abbr %}
+      {% capture entrytype %}{{ entry.abbr }}{% endcapture %}
+    {% elsif entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
@@ -148,15 +150,17 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% if entry.abbr %}
+      {% capture periodical %}<strong>{{ entrytype }}{{ entrymonth }}{{ entryyear }}</strong>{% endcapture %}
+    {% else %}
+      {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% endif %}
     <div class="periodical">
       {{ periodical | strip }}
+      {% if entry.award %}
+        <span class="award-note">({{ entry.award | markdownify | remove: '<p>' | remove: '</p>' | strip }})</span>
+      {% endif %}
     </div>
-    {% if entry.award %}
-      <div class="award-note">
-        {{ entry.award | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-    {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
