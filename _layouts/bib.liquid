@@ -136,9 +136,9 @@
           <span class="link-separator">|</span>
         {% endif %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}">paper</a>
+          <a href="{{ entry.pdf }}">pdf</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">paper</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">pdf</a>
         {% endif %}
         {% assign printed_link = true %}
       {% endif %}
@@ -168,13 +168,6 @@
           <span class="link-separator">|</span>
         {% endif %}
         <a href="{{ entry.hardware }}">hardware</a>
-        {% assign printed_link = true %}
-      {% endif %}
-      {% if entry.doi %}
-        {% if printed_link %}
-          <span class="link-separator">|</span>
-        {% endif %}
-        <a href="https://doi.org/{{ entry.doi }}">DOI</a>
         {% assign printed_link = true %}
       {% endif %}
       {% if entry.hal %}
