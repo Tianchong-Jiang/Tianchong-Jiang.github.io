@@ -101,22 +101,22 @@
       }
 
       .links {
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+        font-weight: 600;
+        line-height: 1.2;
+
+        a {
+          color: var(--global-theme-color);
 
           &:hover {
             color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            text-decoration: none;
           }
         }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
+
+        .link-separator {
+          color: var(--global-text-color);
+          font-weight: 600;
+          margin: 0 0.2rem;
         }
       }
 
