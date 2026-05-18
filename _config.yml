@@ -325,10 +325,12 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    dataset,
     dimensions,
     eprint,
     google_scholar_id,
     hal,
+    hardware,
     html,
     inspirehep_id,
     pdf,
@@ -340,6 +342,7 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    weights,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

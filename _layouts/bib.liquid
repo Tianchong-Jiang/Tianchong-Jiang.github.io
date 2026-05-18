@@ -131,11 +131,122 @@
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>
         {% assign printed_link = true %}
       {% endif %}
+      {% if entry.pdf and entry.pdf != 'coming soon' %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}">paper</a>
+        {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">paper</a>
+        {% endif %}
+        {% assign printed_link = true %}
+      {% endif %}
       {% if entry.code %}
         {% if printed_link %}
           <span class="link-separator">|</span>
         {% endif %}
         <a href="{{ entry.code }}">code</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.dataset %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="{{ entry.dataset }}">dataset</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.weights %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="{{ entry.weights }}">weights</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.hardware %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="{{ entry.hardware }}">hardware</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.doi %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="https://doi.org/{{ entry.doi }}">DOI</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.hal %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="https://hal.science/{{ entry.hal }}">HAL</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.supp %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        {% if entry.supp contains '://' %}
+          <a href="{{ entry.supp }}">supp</a>
+        {% else %}
+          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}">supp</a>
+        {% endif %}
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.video %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        {% if site.enable_video_embedding %}
+          <a class="abstract" role="button">video</a>
+        {% else %}
+          <a href="{{ entry.video }}">video</a>
+        {% endif %}
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.blog %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a href="{{ entry.blog }}">blog</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.poster %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        {% if entry.poster contains '://' %}
+          <a href="{{ entry.poster }}">poster</a>
+        {% else %}
+          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}">poster</a>
+        {% endif %}
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.slides %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        {% if entry.slides contains '://' %}
+          <a href="{{ entry.slides }}">slides</a>
+        {% else %}
+          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}">slides</a>
+        {% endif %}
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.abstract %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a class="abstract" role="button">abs</a>
+        {% assign printed_link = true %}
+      {% endif %}
+      {% if entry.bibtex_show %}
+        {% if printed_link %}
+          <span class="link-separator">|</span>
+        {% endif %}
+        <a class="bibtex" role="button">bib</a>
       {% endif %}
     </div>
 
