@@ -320,6 +320,7 @@ filtered_bibtex_keywords:
     altmetric,
     annotation,
     arxiv,
+    author_note,
     award,
     award_name,
     bibtex_show,
