@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<style>
+  .homepage-chinese-name {
+    font-family: "Noto Serif CJK SC", "Songti SC", "STSong", "SimSun", serif;
+    font-size: 0.65em;
+    font-weight: 400;
+    margin-left: 0.35rem;
+    white-space: nowrap;
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -9,6 +19,9 @@ layout: default
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
+      {% endif %}
+      {% if site.chinese_name %}
+        <span class="homepage-chinese-name">{{ site.chinese_name }}</span>
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
