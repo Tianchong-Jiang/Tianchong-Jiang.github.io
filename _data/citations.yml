@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-22'
 papers:
   5z1iJjoAAAAJ:IjCSPb-OGe4C:
     citations: 7
@@ -30,6 +30,6 @@ papers:
     title: "WIGNER\u2019S SEMICIRCLE LAW FOR GAUSSIAN RANDOM MATRICES"
     year: '2021'
   5z1iJjoAAAAJ:u5HHmVD_uO8C:
-    citations: 73
+    citations: 74
     title: 'Statler: State-maintaining language models for embodied reasoning'
     year: '2024'
