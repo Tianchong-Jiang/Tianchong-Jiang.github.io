@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-06'
 papers:
   5z1iJjoAAAAJ:IjCSPb-OGe4C:
     citations: 8
@@ -10,7 +10,7 @@ papers:
     title: 'StackGen: Generating Stable Structures from Silhouettes via Diffusion'
     year: '2025'
   5z1iJjoAAAAJ:W7OEmFMy1HYC:
-    citations: 5
+    citations: 6
     title: Do You Know Where Your Camera Is? View-Invariant Policy Learning with Camera Conditioning
     year: '2026'
   5z1iJjoAAAAJ:YsMSGLbcyi4C:
