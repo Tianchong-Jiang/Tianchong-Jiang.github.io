@@ -80,3 +80,34 @@
 "wheeler":
   - firstname: ["Samuel W.", "Samuel"]
     url: https://scholar.google.com/citations?user=5oGQphkAAAAJ&hl=en
+
+"lee":
+  - firstname: ["Kangwook"]
+    url: https://kangwooklee.com/
+
+"nowak":
+  - firstname: ["Robert"]
+    url: https://nowak.ece.wisc.edu/
+
+"kim":
+  - firstname: ["Yea-Seul"]
+    url: https://pages.cs.wisc.edu/~yeaseulkim/
+
+  - firstname: ["Jinyeon"]
+    url: https://scholar.google.com/citations?user=8pkA2wIAAAAJ
+
+"ewer":
+  - firstname: ["Ethan"]
+    url: https://sites.google.com/wisc.edu/ethan-ewer/about
+
+"guntara":
+  - firstname: ["Tri Wahyu"]
+    url: https://scholar.google.com/citations?user=fFbw9fsAAAAJ
+
+"roh":
+  - firstname: ["Junha"]
+    url: https://rohjunha.github.io/
+
+"dworakowski":
+  - firstname: ["Jakub"]
+    url: https://www.tehjakub.bot/
