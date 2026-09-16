@@ -340,6 +340,7 @@ filtered_bibtex_keywords:
     pmid,
     poster,
     preview,
+    pubstate,
     selected,
     slides,
     supp,

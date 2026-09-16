@@ -282,6 +282,9 @@
     {% endif %}
     <div class="periodical">
       {{ periodical | strip }}
+      {% if entry.pubstate %}
+        ({{ entry.pubstate }})
+      {% endif %}
       {% if entry.award %}
         <span class="award-note">({{ entry.award | markdownify | remove: '<p>' | remove: '</p>' | strip }})</span>
       {% endif %}
