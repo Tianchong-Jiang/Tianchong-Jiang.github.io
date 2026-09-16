@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student at [TTIC](https://www.ttic.edu/), advised by [Matthew Walter](https://ttic.edu/walter/). I am broadly interested in robotic manipulation and related problems in machine learning. Before starting my PhD, I completed my B.S. and B.A. at the University of Chicago.
+I am a third-year PhD student at [TTIC](https://www.ttic.edu/), advised by [Matthew Walter](https://ttic.edu/walter/). I am broadly interested in robotic manipulation and related problems in machine learning. Before starting my PhD, I completed my B.S. and B.A. at the University of Chicago.

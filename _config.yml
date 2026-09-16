@@ -335,6 +335,7 @@ filtered_bibtex_keywords:
     hardware,
     html,
     inspirehep_id,
+    note,
     pdf,
     pmid,
     poster,
