@@ -83,6 +83,17 @@ layout: default
               <i class="fa-brands fa-linkedin"></i>
             </a>
           {% endif %}
+          {% if site.data.socials.x_username %}
+            <a
+              href="https://x.com/{{ site.data.socials.x_username }}"
+              title="X"
+              aria-label="X"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          {% endif %}
           {% if site.data.socials.scholar_userid %}
             <a
               href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
