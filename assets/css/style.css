@@ -1,0 +1,75 @@
+@font-face{font-family:'Inter';src:url(/assets/fonts/Inter-Regular.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url(/assets/fonts/Inter-Italic.woff) format('woff');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Inter';src:url(/assets/fonts/Inter-Medium.woff) format('woff');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url(/assets/fonts/Inter-SemiBold.woff) format('woff');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url(/assets/fonts/Inter-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}
+
+:root{--ink:#1a1a1a;--text:#2f2f2f;--mute:#7b7b7b;--line:#d4d4d4;--red:#d0021b;--link:#1d3a8a;--link-line:rgba(29,58,138,.3)}
+*{box-sizing:border-box;border-radius:0}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--text);font:16px/1.8 'Inter','PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif;font-feature-settings:"cv11";-webkit-font-smoothing:antialiased}
+img{display:block} sup{line-height:0;font-size:.7em}
+ul{list-style:none;margin:0;padding:0} h1,h2,p{margin:0;font-weight:inherit;font-size:inherit}
+.page{max-width:1184px;margin:0 auto;padding:0 32px 120px}
+
+a{color:var(--link);text-decoration:underline;text-decoration-color:var(--link-line);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-color:var(--link)}
+
+.nav{display:flex;justify-content:space-between;padding-top:44px}
+.brand{font-weight:500;color:var(--ink);text-decoration:none}
+nav a{margin-left:24px;color:var(--mute);text-decoration:none}
+nav a:hover,nav a.here{color:var(--ink)}
+
+.about{display:grid;grid-template-columns:1fr 152px;gap:64px;padding-top:104px}
+.name{font-size:27px;font-weight:500;color:var(--ink);letter-spacing:-.015em;line-height:1.2;margin-bottom:20px}
+.cn{font-weight:400;color:var(--mute);margin-left:6px}
+.bio{max-width:860px}
+.socials{display:flex;flex-wrap:wrap;gap:0 22px;margin-top:20px}
+.photo{width:152px;height:184px;object-fit:cover;object-position:50% 22%}
+
+.head{padding-top:104px}
+.head .name{margin-bottom:0}
+h2{font-size:18px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink);margin:104px 0 24px}
+.head+section h2{margin-top:72px}
+
+.news li{display:grid;grid-template-columns:96px 1fr;gap:24px;margin-bottom:12px}
+.date{color:var(--ink);font-weight:600;font-feature-settings:"cv11","tnum"}
+
+.pub{display:grid;grid-template-columns:184px 1fr;gap:36px;margin-bottom:48px}
+.fig{position:relative;align-self:start;margin-top:5px}
+.thumb{width:184px;height:auto;border:1px solid #e3e3e3}
+.badge{position:absolute;top:0;left:0;background:var(--link);color:#fff;font-size:12.5px;font-weight:600;letter-spacing:.03em;line-height:1;padding:5px 8px}
+.body{font-size:14px;line-height:1.75}
+.body{min-width:0}
+.title{font-size:16px;line-height:1.8;font-weight:700;color:var(--ink);margin-bottom:2px}
+.authors{color:var(--mute)}
+.me{font-weight:500;color:var(--ink)}
+.authors a{color:inherit;text-decoration:none}
+.authors a:hover{text-decoration:underline;text-decoration-color:currentColor}
+.meta,.note{color:var(--mute);font-style:italic}
+.meta span+span::before{content:", ";color:var(--mute)}
+.award{color:var(--red)}
+.links{display:flex;flex-wrap:wrap;gap:0 16px;margin-top:4px}
+.switch{display:flex;gap:24px;margin:-4px 0 36px}
+.switch button{font:inherit;color:var(--mute);background:none;border:0;border-bottom:1px solid transparent;padding:0 0 1px;cursor:pointer}
+.switch button:hover{color:var(--ink)}
+.switch button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.bib{margin:12px 0 0;padding:16px 20px;background:#f6f6f6;color:var(--ink);font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;overflow-x:auto;white-space:pre}
+
+.cv{display:block;width:100%;height:calc(100vh - 200px);min-height:600px;border:0;margin-top:40px}
+.lead{margin-top:20px;max-width:860px}
+
+@media (max-width:760px){
+  .page{padding:0 20px 80px}
+  .nav{padding-top:24px}
+  nav a{margin-left:16px}
+  .about{grid-template-columns:1fr;gap:28px;padding-top:48px}
+  .photo{order:-1;width:120px;height:146px}
+  .head{padding-top:48px}
+  h2{margin:64px 0 20px}
+  .head+section h2{margin-top:48px}
+  .news li{grid-template-columns:1fr;gap:0;margin-bottom:16px}
+  .pub{grid-template-columns:1fr;gap:16px;margin-bottom:44px}
+  .fig{margin-top:0;max-width:420px}
+  .thumb{width:100%}
+}
