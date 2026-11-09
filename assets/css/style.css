@@ -34,6 +34,8 @@ h2{font-size:18px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;
 
 .news li{display:grid;grid-template-columns:96px 1fr;gap:24px;margin-bottom:12px}
 .date{color:var(--ink);font-weight:600;font-feature-settings:"cv11","tnum"}
+.older-news summary{width:fit-content;padding:2px 12px;border:1px solid var(--line);color:var(--link);font-size:14px;cursor:pointer}
+.older-news[open] summary{margin-bottom:16px}
 
 .pub{display:grid;grid-template-columns:184px 1fr;gap:36px;margin-bottom:48px}
 .fig{position:relative;align-self:start;margin-top:5px}
